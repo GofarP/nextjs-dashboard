@@ -6,7 +6,7 @@ import {
   fetchLatestInvoices,
   fetchCardData,
 } from "@/app/lib/data";
-import { lusitana } from "../ui/fonts";
+import { lusitana } from "../../ui/fonts";
 export default async function Page() {
   const revenue = await fetchRevenue();
   const latestInvoices = await fetchLatestInvoices();
